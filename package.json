@@ -1,0 +1,29 @@
+{
+  "name": "youtube-lite",
+  "version": "1.0.0",
+  "description": "Lazy-loaded YouTube video and playlist embed.",
+  "type": "module",
+  "browser": "./dist/youtube-lite.min.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "rollup --config --environment NODE_ENV:production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigbuckler/youtube-lite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/craigbuckler/youtube-lite/issues"
+  },
+  "homepage": "https://github.com/craigbuckler/youtube-lite#readme",
+  "keywords": [
+    "YouTube",
+    "embed",
+    "lazy",
+    "load"
+  ],
+  "author": "Craig Buckler",
+  "license": "MIT"
+}
